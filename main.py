@@ -5,9 +5,9 @@ import pandas as pd
 data = pd.read_csv("pokemon.csv")
 st.write(data)
 
-import matplotlib as plt
-import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
 
-plot = sns.histplopt(data,x=data.base_total,y=data.is_legendary)
+plot = px.histogram(data,x="base_total",y="is_legendary")
 
-st.write(plot)
+st.plotly_chart(plot)
