@@ -8,6 +8,6 @@ st.write(data)
 import matplotlib as plt
 import seaborn as sns
 
-plot = sns.histplopt(data,x=data.base_total,y=data.is_legendary)
+plot = sns.histplot(data,x=data.base_total,y=data.is_legendary)
 
 st.write(plot)
