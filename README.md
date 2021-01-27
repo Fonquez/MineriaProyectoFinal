@@ -1,8 +1,8 @@
 # Mineria_ProyectoFinal
 
 ## Autores
-* Nikola García - nikolai.garcia.98@gmail.com
 * Francisco Fonseca - fonseking21@gmail.com
+* Nikola García - nikolai.garcia.98@gmail.com
 
 ## Licencia
 GNU General Public License v3.0
