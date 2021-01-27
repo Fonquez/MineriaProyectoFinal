@@ -148,3 +148,9 @@ for i in range(0,4):
     elif i%2 == 1:
         col7.write(f"Cluster {i}")
         col7.write(data[data["k-means_clusters"]==i].mean())
+
+st.write("Cluster 0: mayoritariamente hombres, con exercise_induced_angina con historial de talasemia que tienen alta posibilidad de tener enfermedad de corazón")
+st.write("Cluster 1: mujeres, sin historial de talasemia que tienen baja probabilidad de presentar la enfermedad")
+st.write("Cluster 2: hombres, sin historial de talasemia que tienen baja probabilidad de presentar la enfermedad")
+st.write("Cluster 3: mayoritariamente hombres que no presentan excersie_induced_angina con historial de talasemia que tienen una moderada probabilidad de presentar la enfermedad")
+st.write("*El orden de los clusters puede cambiar, así como se pueden presentar pequeñas variaciones en los números, ya que k-means es susceptible a las condiciones iniciales")
