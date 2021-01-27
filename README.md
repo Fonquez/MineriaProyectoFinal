@@ -1,4 +1,4 @@
-# Mineria_ProyectoFinal
+# Minería de datos: Proyecto final
 
 ## Autores
 * Francisco Fonseca - fonseking21@gmail.com
