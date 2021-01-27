@@ -8,7 +8,7 @@
 GNU General Public License v3.0
 
 ## Reporte
-El reporte completo se encuentra en proyecto.pdf
+El reporte completo se encuentra en Proyecto.pdf
 
 ## Requisitos para correr streamlit
 
